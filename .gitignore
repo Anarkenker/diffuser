@@ -2,7 +2,7 @@
 # CUSTOM
 
 # Data and output directories
-data/
+# data/
 work_dirs/
 
 # Editor configs

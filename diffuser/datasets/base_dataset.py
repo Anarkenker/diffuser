@@ -92,7 +92,7 @@ class BaseScene(object, metaclass=ABCMeta):
 
     def _set_label_mapping(self, label_mapping_name):
         label_mapping = None
-        if label_mapping_name is not None:
+        if label_mapping_name is not None and label_mapping_name != '':
             label_mapping = get_label_mapping(label_mapping_name)
             if isinstance(label_mapping, list):
                 assert (len(label_mapping) == self.num_classes)

@@ -2,3 +2,4 @@
 # Licensed under the BSD 3-Clause License.
 
 from .scannet import ScanNet20, ScanNetScene
+from .arkit import ARKitBinary, ARKitScene
